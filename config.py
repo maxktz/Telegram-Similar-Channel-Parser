@@ -2,7 +2,7 @@
 PROXY = None
 
 # code parameters (don't touch if you don't know what you're doing)
-LINE_FORMAT = '{username}:{title}'
+LINE_FORMAT = '{username}:{participants_count}:{title}'
 SAVING_DIRECTORY = 'saved_channels'
 TELEGRAM_API_ID = 2040
 TELEGRAM_API_HASH = 'b18441a1ff607e10a989891a5462e627'

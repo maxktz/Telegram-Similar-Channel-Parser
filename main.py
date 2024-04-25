@@ -53,9 +53,10 @@ class SimilarChannelParser:
             config.LINE_FORMAT.format(**chat.__dict__)
             for chat in res.chats
         ]
-        log_text = f'Parsed {len(channels)}/{res.count} similar channels. '
-        if len(channels) < res.count:
-            log_text += f"You may need Telegram Premium to get all {res.count} channels."
+        count = getattr(res, 'count', len(channels))
+        log_text = f'Parsed {len(channels)}/{count} similar channels. '
+        if len(channels) < count:
+            log_text += f"You may need Telegram Premium to get all {count} channels."
         logger.success(log_text)
         return channels
         
