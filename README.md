@@ -15,8 +15,9 @@ So basic script, about 100 code lines, simple to use.
 4. Install required packages:
 
     `python -m pip install -r requirements.txt`
+   If you are using Linux or Mac also run the command: `pip install uvloop`
 
-5. Run script by this command:
+6. Run script by this command:
 
     `python main.py`
 
