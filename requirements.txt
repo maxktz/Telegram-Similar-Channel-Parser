@@ -2,3 +2,4 @@ telethon==1.35.0
 uvloop==0.19.0
 yarl==1.9.4
 loguru==0.7.2
+pysocks==1.7.1
