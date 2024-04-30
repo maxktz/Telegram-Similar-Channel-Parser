@@ -1,6 +1,6 @@
 from pathlib import Path
 import os, sys
-import uvloop
+import asyncio
 import config
 from telethon import TelegramClient, functions, types
 from yarl import URL
@@ -82,4 +82,4 @@ class SimilarChannelParser:
 
 
 if __name__ == '__main__':
-    uvloop.run(SimilarChannelParser().main())
+    asyncio.run(SimilarChannelParser().main())
