@@ -21,3 +21,9 @@ So basic script, about 100 code lines, simple to use.
     `python main.py`
 
 Enjoy.
+
+### How to merge all parsed channels without duplicates?
+
+1. Run this module:
+
+    `python merge_parsed.py`
